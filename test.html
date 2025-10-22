@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./reset.css" />
+    <title>Test</title>
+  </head>
+  <body>
+    <h3>회원 가입을 환영합니다.</h3>
+    <form action="#" method="post">
+      <fieldset>
+        <legend>사용자 정보</legend>
+        <ul>
+          <li>아이디</li>
+          <input type="text" placeholder="ID" />
+          <li>이메일</li>
+          <input
+            type="text"
+            placeholder="name@example.com"
+            pattern="[a-zA-Z0-9._@#]+mycompany\.com$"
+          />
+          <li>비밀번호</li>
+          <input type="password" id="password" />
+          <li>비밀번호 확인</li>
+          <input type="password" id="passwrd" />
+        </ul>
+      </fieldset>
+      <fieldset>
+        <legend>이벤트와 새로운 소식</legend>
+        <input type="radio" name="mail" value="yes" />
+        <label for="#">메일수신</label>
+        <input type="radio" name="mail" value="no" />
+        <label for="#">메일 수신 안함</label>
+      </fieldset>
+      <input type="submit" value="가입하기" />
+      <input type="reset" value="취소" />
+      <label for="1111"></label>
+      <label for="22222"></label>
+    </form>
+  </body>
+</html>
